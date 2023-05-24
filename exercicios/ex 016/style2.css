@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+  background-color: rgba(29, 132, 236, 0.815);  
+  padding: 40px;
+}
+p{
+  color: rgb(206, 28, 28);  
+ font-display: ;
+  text-align: center;
+    }
+    main{
+      background-color:white;
+      padding: auto;
+      box-shadow: 15px 15px 15px rgb(138, 132, 121);
+    }
