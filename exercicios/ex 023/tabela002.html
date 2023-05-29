@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+           border: 2px solid black; 
+           width: 370px;
+           background-color: blue;
+           color: white;
+           text-align: center;
+           padding: 2px 2px 5px 2px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+       td,th{
+        border: 1px solid black;
+        padding: 5px;
+       }
+        thead{
+            background-color: blue;
+            color: white;
+        }
+        tfoot{
+            background-color: blue;
+            color: white;
+        }
+        td.num{
+         text-align: right;   
+        }
+        caption{
+          background-color: rgba(0, 153, 255, 0.363);  
+        }
+    </style>
+</head>
+<body>
+   <h1>tabelas grandes</h1>
+    <table>
+        <caption>11 primeiros estados mais populosos</caption>
+        <thead>
+            <tr>
+             <th scope="col">
+                estado
+             </th>
+             <th scope="col">
+                populaçao
+             </th>
+            </tr>
+        </thead>
+        <tbody>
+<td>sao paulo</td>
+<td class="num">45 000 000</td>
+<tr>
+<td>minas gerais</td>
+<td class="num">21 000 000</td>
+</tr>
+<tr>
+ <td>rio de janeiro</td>
+ <td class="num">17 000 000</td>   
+</tr>
+<tr>
+    <td>bahia</td>
+    <td class="num">14 000 000</td>
+</tr>
+<tr>
+ <td>parana</td>
+ <td class="num">11 000 000</td>   
+</tr>
+<tr>
+  <td>rio grande do sul</td>
+  <td class="num"> 11 000 000</td>  
+</tr>
+<tr>
+    <td>pernambuco</td>
+    <td class="num">9 000 000</td>
+</tr>
+<tr>
+    <td>ceara</td>
+    <td class="num">8 000 000</td>
+</tr>
+<tr>
+    <td>para</td>
+    <td class="num">8 000 000</td>
+</tr>
+<tr>
+    <td>santa cataria</td>
+    <td class="num">7 000 000</td>
+</tr>
+<tr>
+    <td>goias</td>
+    <td class="num">6 000 000</td>
+        </tbody>
+        <tfoot>
+<tr>
+    <th scope="row">total de habitantes</th>
+    <td><strong>151 000 000</strong></td>
+</tr>
+        </tfoot>       
+    </table>
+</body>
+</html>
